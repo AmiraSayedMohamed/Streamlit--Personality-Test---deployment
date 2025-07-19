@@ -4,3 +4,4 @@ plotly==6.2.0
 gspread==6.2.1
 google-auth==2.40.1
 numpy==1.26.4
+openpyxl
