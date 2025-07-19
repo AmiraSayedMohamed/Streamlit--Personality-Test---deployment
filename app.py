@@ -55,7 +55,11 @@ def get_google_sheets_client():
             'https://spreadsheets.google.com/feeds',
             'https://www.googleapis.com/auth/drive'
         ]
-        creds = Credentials.from_service_account_file('google_credentials.json', scopes=scope)
+        # Load credentials from Streamlit secrets
+        creds = Credentials.from_service_account_info(
+            st.secrets["gcp"],
+            scopes=scope
+        )
         client = gspread.authorize(creds)
         _sheets_client = client
         return client
