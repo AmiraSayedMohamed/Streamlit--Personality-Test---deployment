@@ -1,5 +1,5 @@
 # 🧠 Adaptive Big Five Personality Test (Arabic Version)
-![Alt Text](path/to/image.png)
+![Alt Text](https://github.com/AmiraSayedMohamed/Streamlit--Personality-Test---deployment/blob/master/app1.jpg)
 Welcome to the **Adaptive Big Five Personality Test** — a powerful, interactive web application built with **Streamlit** and enhanced with **Google Sheets integration**, **Plotly visualizations**, and **adaptive questioning logic**. This tool helps users identify their dominant personality trait based on the well-established **Big Five model**.
 
 ## 🌟 Features
